@@ -1,0 +1,302 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*------------------------------------------------------------*/
+/*Line 43 - Line 93 will stylized the menu. Also it will change colors as you hover the mouse over the text.*/
+.navMenu1{
+  color: white;
+  position:absolute;
+  top:65px; 
+  left:130px;
+  font-weight:bold;
+  z-index: 1;
+}
+.navMenu1:hover{
+  color: orange;
+  position:absolute;
+  top:65px; 
+  left:130px;
+  font-weight:bold;
+  z-index: 1;
+}
+
+.navMenu2{
+  color: white;
+  position:absolute;
+  top:95px; 
+  left:130px;
+  font-weight:bold;
+  z-index: 1;
+}
+.navMenu2:hover{
+  color: orange;
+  position:absolute;
+  top:95px; 
+  left:130px;
+  font-weight:bold;
+  z-index: 1;
+}
+
+.navMenu3{
+  color: white;
+  position:absolute;
+  top:125px; 
+  left:130px;
+  font-weight:bold;
+  z-index: 1;
+}
+.navMenu3:hover{
+  color: orange;
+  position:absolute;
+  top:125px; 
+  left:130px;
+  font-weight:bold;
+  z-index: 1;
+}
+
+/*This will stylize the contact button. It will also change colors as you hover over the mouse.*/
+.contact{
+  color: white;
+  position:absolute;
+  top:5px; 
+  left:1150px;
+  font-weight:bold;
+  text-align: center;
+
+  width: 110px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 13px;
+  margin: 20px;
+  z-index: 1;
+}
+
+.contact:hover{
+  color: orange;
+  position:absolute;
+  top:5px; 
+  left:1150px;
+  font-weight:bold;
+  text-align: center;
+
+  width: 110px;
+  border: 1px solid orange;
+  padding: 13px;
+  margin: 20px;
+  z-index: 1;
+}
+
+/*This will change size of the 'abc' logo*/
+.abc{
+  position:absolute;
+  top:20px; 
+  left:130px;
+  font-weight:bold;
+  z-index: 1;
+}
+
+/*Sizing and posistioning the backgroud*/
+.imgBg{
+  position: relative;
+  max-width:1440px;
+  height: 824px;
+  /* animation: scrolling 10s linear infinite; */
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* @keyframes scrolling {
+  0% { transform: translateX(90vw); }
+  100% { transform: translateX(-180vw); }
+} */
+
+
+
+/* .imgBg:before, .imgBg:after {
+  background-color: black;
+  top:0;
+  width:10rem;
+  height: 1000%;
+  position: relative;
+  content: "";
+  overflow:hidden;
+  z-index: 1;
+}
+
+.imgBg:before {
+  left: 0;
+  background: linear-gradient(to right, #111 0%, transparent 100%);
+}
+
+.imgBg:after {
+  left: 0;
+  background: linear-gradient(to left, #111 0%, transparent 100%);
+} */
+
+
+/*This will display a white box at the bottom of the webpage*/
+.action{
+  position:absolute;
+  height:157px;
+  width: 1178px;
+  top:647px;
+  left: 120px;
+  padding: 10px;
+  background-color: white;
+  margin: 0;
+  overflow: visible;
+}
+
+
+
+/*This will stylized headline*/
+
+.head1{
+  color: white;
+  position:absolute;
+  top:310px; 
+  left:115px;
+  font-weight:bold;
+  text-align: center;
+  font-size: 500%;
+  color: #fff;
+  text-align: left;
+  font-family: Helvetica;
+
+  width: 800px;
+  padding: 10px;
+  border: 5% solid rgba(255, 255, 255, 0);
+  margin: 0;
+  z-index: 1;
+}
+
+/*This will stylized headline*/
+.head1B{
+  color: white;
+  position:absolute;
+  top:175px; 
+  left:110px;
+  font-weight:bold;
+  text-align: center;
+  font-size: 557%;
+  color: #fff;
+  text-align: left;
+  font-family: Helvetica;
+
+  width: 800px;
+  padding: 10px;
+  border: 5% solid rgba(255, 255, 255, 0);
+  margin: 0;
+  z-index: 1;
+}
+
+/*This will stylized subhead*/
+.head2{
+  color: white;
+  position:absolute;
+  top:330px; 
+  left:905px;
+  line-height: 2;
+  text-align: left;
+  font-family: Helvetica;
+
+  width: 360px;
+  padding: 10px;
+  border: 5% solid rgba(255, 255, 255, 0);
+  margin: 0;
+  z-index: 1;
+}
+
+/*This will stylized cta in the action box*/
+.head3{
+  color: black;
+  position: absolute;
+  top:705px; 
+  left:210px;
+  text-align: left;
+  font-weight:bold;
+  font-size: 143%;
+  z-index: 1;
+  font-family: Helvetica;
+}
+
+/*It will stylized for 'LET'S TALK' text*/
+.LT{
+  color: black;
+  position: absolute;
+  top:724px; 
+  left:940px;
+  text-align: left;
+  font-weight:bold;
+  font-size: 73%;
+  z-index: 1;
+  font-family: Helvetica;
+}
+
+/*It will stylized the arrow*/
+span {
+  position:absolute;
+  font-weight:bolder;
+  color: orange;
+  top:730px; 
+  left:1020px;
+  content: "\2192";
+  z-index: 1;
+}
+
+.test1{
+  position: absolute;
+  left: 1px;
+}
+
+
+
+.Marquee {
+  display: block;
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+.MarqueeConrent {
+  display: block;
+  display: inline-block;
+  z-index: -1;
+  
+}
